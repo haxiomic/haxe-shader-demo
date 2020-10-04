@@ -1,0 +1,16 @@
+{
+  "name": "haxe-shaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "haxe build.hxml && live-server --watch=\"index.html,dist/bundle.js,assets\" ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.7.9",
+    "three": "^0.121.1"
+  }
+}
