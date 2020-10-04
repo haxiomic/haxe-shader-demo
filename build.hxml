@@ -1,0 +1,13 @@
+# use the three.js library (stored in .haxelib/)
+--library three
+# source code location
+--class-path src
+# entry point class
+--main Main
+# target language
+--js dist/app.js
+# compiler options: use full dead-code-elimination for slimmer output
+--dce full
+
+# this bundles three.js into the output (only required because we are using three.js)
+-cmd npx esbuild dist/app.js --bundle --outfile=dist/bundle.js --minify --sourcemap
