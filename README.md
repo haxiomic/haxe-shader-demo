@@ -3,7 +3,7 @@
 This is a minimal demo of getting a custom shader running using haxe. It works on the js target and uses three.js to simplify the setup (raw webgl would take quite a few lines!). For the app, I'm working on an alternative to three.js that we can use on iOS and Android
 
 ## Building
-- Install haxe: https://haxe.org/download/ (I'm using 4.1.4)
+- Install haxe: https://haxe.org/download/ (I'm using 4.2.3)
 - Install dependencies
 
 	`npm install`
